@@ -10,9 +10,7 @@ import {
   DiLaravel,
   DiMysql,
   DiMongodb,
-  DiGit,
-  DiCodeBadge,
-  DiNodejsSmall
+  DiGit
 } from "react-icons/di";
 
 function Techstack() {
@@ -28,7 +26,7 @@ function Techstack() {
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejsSmall />
+        <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
