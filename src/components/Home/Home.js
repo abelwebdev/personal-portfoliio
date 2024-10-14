@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import logo from "../../Assets/logo.png";
 import { Link, useNavigate } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
@@ -13,7 +12,6 @@ import ProjectCard from "../Projects/ProjectCards";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
-import Footer from '../Footer'
 function Home() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
@@ -139,13 +137,9 @@ function Home() {
                 LET ME <span className="purple"> INTRODUCE </span> MYSELF
               </h1>
               <p className="home-about-body">
-                I fell in love with programming and I have at least learnt
-                something, I think… 🤷‍♂️
-                <br />
-                <br />I am fluent in classics like
-                <i>
-                  <b className="purple"> C++, Javascript and Go. </b>
-                </i>
+                  Passionate full-stack developer with a strong foundation in <b className="purple"> MERN Stack and Laravel </b>
+                  Dedicated to crafting innovative and user-friendly web applications.                
+                  <br />
                 <br />
                 <br />
                 My field of Interest's are building new &nbsp;
@@ -153,23 +147,13 @@ function Home() {
                   <b className="purple">Web Technologies and Products </b> and
                   also in areas related to{" "}
                   <b className="purple">
-                    Blockchain.
+                    Cloud Computing.&nbsp;
                   </b>
                 </i>
+                Driven to solve complex challenges through the development of innovative web technologies and products.
                 <br />
                 <br />
-                Whenever possible, I also apply my passion for developing products
-                with <b className="purple">Node.js</b> and
-                <i>
-                  <b className="purple">
-                    {" "}
-                    Modern Javascript Library and Frameworks
-                  </b>
-                </i>
-                &nbsp; like
-                <i>
-                  <b className="purple"> React.js and Next.js</b>
-                </i>
+                <br />
               </p>
             </Col>
             <Col md={4} className="myAvtar">
