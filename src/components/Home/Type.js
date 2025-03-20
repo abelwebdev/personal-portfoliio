@@ -9,7 +9,6 @@ function Type() {
           "Full-Stack Developer",
           "MERN Stack Developer",
           "Laravel Developer",
-          "Freelancer",
         ],
         autoStart: true,
         loop: true,
